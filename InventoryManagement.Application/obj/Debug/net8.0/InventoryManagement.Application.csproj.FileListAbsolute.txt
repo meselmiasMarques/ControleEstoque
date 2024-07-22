@@ -16,3 +16,21 @@ C:\Users\mlima\Desktop\DEV\StockControl\InventoryManagement.Application\obj\Debu
 C:\Users\mlima\Desktop\DEV\StockControl\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
 C:\Users\mlima\Desktop\DEV\StockControl\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.pdb
 C:\Users\mlima\Desktop\DEV\StockControl\InventoryManagement.Application\obj\Debug\net8.0\ref\InventoryManagement.Application.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.deps.json
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.pdb
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Domain.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Infrastructure.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Domain.pdb
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Infrastructure.pdb
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.AssemblyReference.cache
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfo.cs
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.sourcelink.json
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\Inventor.0D5EB3FB.Up2Date
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.pdb
+C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\ref\InventoryManagement.Application.dll

@@ -10,7 +10,7 @@ public class InventoryContextFactory : IDesignTimeDbContextFactory<InventoryCont
         var optionsBuilder = new DbContextOptionsBuilder<InventoryContext>();
 
         // Configure a string de conexão aqui
-        optionsBuilder.UseSqlite("Data Source=inventory.db");
+        optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False");
 
         return new InventoryContext(optionsBuilder.Options);
     }

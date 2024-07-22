@@ -26,6 +26,7 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de Product
             modelBuilder.Entity<Product>(entity =>
             {
+                entity.ToTable("Product");
                 entity.HasKey(e => e.ProductID);
 
                 entity.Property(e => e.Name)
@@ -55,9 +56,11 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de Category
             modelBuilder.Entity<Category>(entity =>
             {
+                entity.ToTable("Category");
+
                 entity.HasKey(e => e.CategoryID);
 
-                entity.Property(e => e.CategoryName)
+                entity.Property(e => e.Name)
                     .IsRequired()
                     .HasMaxLength(100);
 
@@ -70,6 +73,8 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de Supplier
             modelBuilder.Entity<Supplier>(entity =>
             {
+                entity.ToTable("Supplier");
+
                 entity.HasKey(e => e.SupplierID);
 
                 entity.Property(e => e.Name)
@@ -92,6 +97,8 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de Customer
             modelBuilder.Entity<Customer>(entity =>
             {
+                entity.ToTable("Customer");
+
                 entity.HasKey(e => e.CustomerID);
 
                 entity.Property(e => e.Name)
@@ -114,6 +121,8 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de StockMovement
             modelBuilder.Entity<StockMovement>(entity =>
             {
+                entity.ToTable("StockMovement");
+
                 entity.HasKey(e => e.StockMovementID);
 
                 entity.Property(e => e.Quantity)
@@ -146,6 +155,8 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de Order
             modelBuilder.Entity<Order>(entity =>
             {
+                entity.ToTable("Order");
+
                 entity.HasKey(e => e.OrderID);
 
                 entity.Property(e => e.OrderDate)
@@ -169,6 +180,8 @@ namespace InventoryManagement.Infrastructure.Data
             // Configuração de OrderDetail
             modelBuilder.Entity<OrderDetail>(entity =>
             {
+                entity.ToTable("OrderDetail");
+
                 entity.HasKey(e => e.OrderDetailID);
 
                 entity.Property(e => e.Quantity)

@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mlima\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mesel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlima\\Desktop\\DEV\\StockControl\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
       "projectName": "InventoryManagement.Domain",
-      "projectPath": "C:\\Users\\mlima\\Desktop\\DEV\\StockControl\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-      "packagesPath": "C:\\Users\\mlima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mlima\\Desktop\\DEV\\StockControl\\InventoryManagement.Domain\\obj\\",
+      "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mlima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

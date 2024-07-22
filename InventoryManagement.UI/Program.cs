@@ -1,29 +1,41 @@
+using InventoryManagement.Domain.Entities;
+using InventoryManagement.Domain.Repositories;
 using InventoryManagement.Infrastructure.Data;
+using InventoryManagement.UI;
 using Microsoft.EntityFrameworkCore;
+using InventoryManagement.Application.Repositories.Interfaces;
+using InventoryManagement.Application.Services.Interfaces;
+using InventoryManagement.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//// Verificar a string de conexão
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//Console.WriteLine($"Connection String: {connectionString}");
 
-
-
-// Configuração do DbContext com SQLite
+// Adicione serviços ao contêiner
 builder.Services.AddDbContext<InventoryContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False"));
 
-// Add services to the container.
+
+// Registrar os repositórios
+builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
+
+// Registrar os serviços
+builder.Services.AddScoped<IService<Category>, CategoryService>();
+
+
+// Adicionar serviços ao contêiner
 builder.Services.AddControllersWithViews();
 
-// Registro dos serviços e repositórios
-//builder.Services.AddScoped<IProductService, ProductService>();
-//builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure o pipeline HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
