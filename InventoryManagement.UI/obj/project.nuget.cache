@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGy7s0XHZDw=",
+  "dgSpecHash": "6tGoVPNhqyM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
+  "projectFilePath": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mesel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mesel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

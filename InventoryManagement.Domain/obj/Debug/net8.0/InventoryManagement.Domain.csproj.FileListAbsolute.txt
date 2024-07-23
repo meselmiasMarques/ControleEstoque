@@ -22,3 +22,15 @@ C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagemen
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\refint\InventoryManagement.Domain.dll
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.pdb
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\ref\InventoryManagement.Domain.dll
+C:\DEV\ControleEstoque\InventoryManagement.Domain\bin\Debug\net8.0\InventoryManagement.Domain.deps.json
+C:\DEV\ControleEstoque\InventoryManagement.Domain\bin\Debug\net8.0\InventoryManagement.Domain.dll
+C:\DEV\ControleEstoque\InventoryManagement.Domain\bin\Debug\net8.0\InventoryManagement.Domain.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.AssemblyInfo.cs
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.sourcelink.json
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.dll
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\refint\InventoryManagement.Domain.dll
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\InventoryManagement.Domain.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Domain\obj\Debug\net8.0\ref\InventoryManagement.Domain.dll

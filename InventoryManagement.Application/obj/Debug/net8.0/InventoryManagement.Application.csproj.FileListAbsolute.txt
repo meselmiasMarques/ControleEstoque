@@ -34,3 +34,21 @@ C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagemen
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.pdb
 C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\ref\InventoryManagement.Application.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.deps.json
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Domain.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Infrastructure.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Domain.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Infrastructure.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.AssemblyReference.cache
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfo.cs
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.sourcelink.json
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\Inventor.0D5EB3FB.Up2Date
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.pdb
+C:\DEV\ControleEstoque\InventoryManagement.Application\obj\Debug\net8.0\ref\InventoryManagement.Application.dll

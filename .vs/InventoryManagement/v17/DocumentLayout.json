@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\",
+  "WorkspaceRootPath": "C:\\DEV\\ControleEstoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.application\\services\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\services\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.application\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.ui\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\users\\mesel\\onedrive\\\u00E1rea de trabalho\\dev\\controleestoque\\inventorymanagement.ui\\views\\customer\\detalhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\views\\customer\\detalhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\dev\\controleestoque\\inventorymanagement.ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IService.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\Interfaces\\IService.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Services\\Interfaces\\IService.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\Interfaces\\IService.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Services\\Interfaces\\IService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:33:55.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CustomerService.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.UI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "InventoryManagement.UI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:29:19.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Services\\CategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:28:48.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:25:44.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Program.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Program.cs",
-              "RelativeToolTip": "InventoryManagement.UI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:23:46.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "InventoryManagement.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "InventoryManagement.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAB7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T00:23:26.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Detalhe.cshtml",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Views\\Customer\\Detalhe.cshtml",
-              "RelativeDocumentMoniker": "InventoryManagement.UI\\Views\\Customer\\Detalhe.cshtml",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Views\\Customer\\Detalhe.cshtml",
-              "RelativeToolTip": "InventoryManagement.UI\\Views\\Customer\\Detalhe.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T00:17:15.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.UI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\mesel\\OneDrive\\\u00C1rea de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "InventoryManagement.UI\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwFsAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:06:39.044Z",
+              "WhenOpened": "2024-07-23T15:43:11.124Z",
               "EditorCaption": ""
             }
           ]

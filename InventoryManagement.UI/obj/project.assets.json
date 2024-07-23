@@ -7866,11 +7866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
+      "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
       "projectName": "InventoryManagement.UI",
-      "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
+      "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
       "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.UI\\obj\\",
+      "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7888,8 +7888,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+            "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+              "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             }
           }
         }

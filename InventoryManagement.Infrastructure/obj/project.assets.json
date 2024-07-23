@@ -4088,11 +4088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+      "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
       "projectName": "InventoryManagement.Infrastructure",
-      "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+      "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\obj\\",
+      "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4110,8 +4110,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             }
           }
         }

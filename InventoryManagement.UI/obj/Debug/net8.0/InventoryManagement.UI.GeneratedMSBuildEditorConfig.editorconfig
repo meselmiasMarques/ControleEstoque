@@ -17,75 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InventoryManagement.UI
 build_property.RootNamespace = InventoryManagement.UI
-build_property.ProjectDir = C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.UI\
+build_property.ProjectDir = C:\DEV\ControleEstoque\InventoryManagement.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mesel\OneDrive\Área de Trabalho\DEV\ControleEstoque\InventoryManagement.UI
+build_property.MSBuildProjectDirectory = C:\DEV\ControleEstoque\InventoryManagement.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Cadastrar.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Delete.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Detalhe.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Detalhe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWxoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Editar.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Lista.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Category/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Cadastrar.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Detalhe.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Detalhe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWxoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Editar.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Lista.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Customer/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Home/Index.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Home/Privacy.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/Error.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Product/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/_ViewImports.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/_ViewStart.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesel/OneDrive/Área de Trabalho/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/_Layout.cshtml]
+[C:/DEV/ControleEstoque/InventoryManagement.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f4k8gp5fal

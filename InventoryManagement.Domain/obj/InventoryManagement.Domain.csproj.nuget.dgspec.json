@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {}
+    "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mesel\\OneDrive\\Área de Trabalho\\DEV\\ControleEstoque\\InventoryManagement.Domain\\obj\\",
+        "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",

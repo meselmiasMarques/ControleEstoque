@@ -1,34 +1,108 @@
-﻿using InventoryManagement.Application.Repositories.Interfaces;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using InventoryManagement.Application.Repositories.Interfaces;
 using InventoryManagement.Application.Services.Interfaces;
 using InventoryManagement.Domain.Entities;
+using Microsoft.Extensions.Logging;
 
 namespace InventoryManagement.Application.Services
 {
     public class CustomerService : IService<Customer>
     {
-        public Task<Customer> Add(Customer entity)
+        private readonly IRepository<Customer> _repository;
+        private readonly ILogger<CustomerService> _logger;
+
+        public CustomerService(IRepository<Customer> repository, ILogger<CustomerService> logger)
         {
-            throw new NotImplementedException();
+            _repository = repository ?? throw new ArgumentNullException(nameof(repository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        public Task<Customer> Get(int id)
+        public async Task<Customer> Add(Customer entity)
         {
-            throw new NotImplementedException();
+            if (entity == null)
+            {
+                throw new ArgumentNullException(nameof(entity));
+            }
+
+            try
+            {
+                return await _repository.AddAsync(entity);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while adding a customer.");
+                throw;
+            }
         }
 
-        public Task<Customer> Update(Customer entity)
+        public async Task<Customer> Get(int id)
         {
-            throw new NotImplementedException();
+            if (id <= 0)
+            {
+                throw new ArgumentException("Invalid customer ID.", nameof(id));
+            }
+
+            try
+            {
+                return await _repository.GetAsyncById(id);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"An error occurred while retrieving customer with ID {id}.");
+                throw;
+            }
         }
 
-        public Task<List<Customer>> GetAll()
+        public async Task<Customer> Update(Customer entity)
         {
-            throw new NotImplementedException();
+            if (entity == null)
+            {
+                throw new ArgumentNullException(nameof(entity));
+            }
+
+            try
+            {
+                return await _repository.UpdateAsync(entity);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while updating a customer.");
+                throw;
+            }
         }
 
-        public Task<Customer> Delete(Customer entity)
+        public async Task<List<Customer>> GetAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _repository.GetAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while retrieving all customers.");
+                throw;
+            }
+        }
+
+        public async Task<Customer> Delete(Customer entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException(nameof(entity));
+            }
+
+            try
+            {
+                await _repository.DeleteAsync(entity);
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while deleting a customer.");
+                throw;
+            }
         }
     }
 }

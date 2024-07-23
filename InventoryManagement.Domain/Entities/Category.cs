@@ -8,9 +8,9 @@ namespace InventoryManagement.Domain.Entities
 {
     public class Category
     {
-        public int CategoryID { get; set; }
-        public string Name { get; set; }
+        public int CategoryID { get; set; } 
+        public string Name { get; set; } = string.Empty;
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product> Products { get; set; } = new HashSet<Product>();
     }
 }
