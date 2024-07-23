@@ -1,4 +1,4 @@
-﻿@model InventoryManagement.Domain.Entities.Category
+﻿@model InventoryManagement.UI.Models.CategoryViewModel
 
 @{
     ViewData["Title"] = "Editar";
@@ -9,11 +9,15 @@
 
 <h4>Category</h4>
 <hr />
+
+<h5 hidden="hidden">
+    @ViewBag.CategoryId;
+</h5>
+
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Editar">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="CategoryID" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />

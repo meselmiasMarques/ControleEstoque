@@ -54,7 +54,7 @@ namespace InventoryManagement.UI.Controllers
             return RedirectToAction("Lista");
         }
 
-        // GET: CategoryController/Edit/5
+        [HttpGet]
         public ActionResult Editar(int id)
         {
             return View();
@@ -65,6 +65,7 @@ namespace InventoryManagement.UI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Editar(int id, CategoryViewModel model)
         {
+            ViewBag.CategoryId = id;
             if (!ModelState.IsValid)
             {
                 return View(model);

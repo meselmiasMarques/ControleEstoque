@@ -21,9 +21,11 @@ builder.Services.AddDbContext<InventoryContext>(options =>
 
 // Registrar os repositórios
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
+builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
 
 // Registrar os serviços
 builder.Services.AddScoped<IService<Category>, CategoryService>();
+builder.Services.AddScoped<IService<Customer>, CustomerService>();
 
 
 // Adicionar serviços ao contêiner
