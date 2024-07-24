@@ -1,5 +1,6 @@
 ﻿using InventoryManagement.Application.Services.Interfaces;
 using InventoryManagement.Domain.Entities;
+using InventoryManagement.UI.Models.ProductViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,28 +21,47 @@ namespace InventoryManagement.UI.Controllers
         }
 
         // GET: ProductController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Detalhe(int id)
         {
-            return View();
+            var product = await _service.Get(id);
+
+            return View(product);
         }
 
         // GET: ProductController/Create
-        public ActionResult Create()
+        public ActionResult Cadastro()
         {
+
             return View();
         }
 
         // POST: ProductController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Cadastro(ProductCreateViewModel model)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var product = new Product
+                {
+                    ProductId = 0,
+                    Name = model.Name,
+                    Description = model.Description,
+                    Price = model.Price,
+                    Category = model.Category
+                };
+
+                _service.Add(product);
+
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
+                ViewBag.Erro = "Erro EXC004";
                 return View();
             }
         }

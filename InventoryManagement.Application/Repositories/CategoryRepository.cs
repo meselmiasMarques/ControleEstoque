@@ -33,7 +33,7 @@ namespace InventoryManagement.Domain.Repositories
         public async Task<Category> GetAsyncById(int id)
             => await _dbContext
                 .Categories
-                .FirstOrDefaultAsync(x => x.CategoryID == id);
+                .FirstOrDefaultAsync(x => x.CategoryId == id);
 
 
         public async Task<Category> UpdateAsync(Category entity)

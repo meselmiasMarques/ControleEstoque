@@ -10,11 +10,15 @@
         "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
         "projectName": "InventoryManagement.Application",
         "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mlima\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -78,11 +82,15 @@
         "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
         "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mlima\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -139,11 +147,15 @@
         "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
         "projectName": "InventoryManagement.Infrastructure",
         "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mlima\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -206,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -216,11 +228,15 @@
         "projectUniqueName": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
         "projectName": "InventoryManagement.UI",
         "projectPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\InventoryManagement.UI.csproj",
-        "packagesPath": "C:\\Users\\mesel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mlima\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

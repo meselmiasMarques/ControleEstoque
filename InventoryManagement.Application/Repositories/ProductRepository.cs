@@ -38,7 +38,7 @@ namespace InventoryManagement.Domain.Repositories
                 throw new ArgumentException("Invalid product ID.", nameof(id));
             }
 
-            return await _dbContext.Products.AsNoTracking().FirstOrDefaultAsync(x => x.ProductID == id);
+            return await _dbContext.Products.AsNoTracking().FirstOrDefaultAsync(x => x.ProductId == id);
         }
 
         public async Task<Product> UpdateAsync(Product entity)

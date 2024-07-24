@@ -15,6 +15,6 @@ namespace InventoryManagement.Domain.Entities
         public string City { get; set; } = string.Empty;
         public string Phone { get; set; } = string.Empty;
 
-        public ICollection<Order> Orders { get; set; } = new HashSet<Order>();
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
     }
 }

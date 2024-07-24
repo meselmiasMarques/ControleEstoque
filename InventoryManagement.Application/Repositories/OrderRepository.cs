@@ -51,7 +51,7 @@ namespace InventoryManagement.Domain.Repositories
                 .Include(o => o.OrderDetails)
                     .ThenInclude(od => od.Product)
                 .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.OrderID == id);
+                .FirstOrDefaultAsync(x => x.OrderId == id);
         }
 
         public async Task<Order> UpdateAsync(Order entity)

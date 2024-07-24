@@ -27,7 +27,7 @@ namespace InventoryManagement.Infrastructure.Data
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.ToTable("Product");
-                entity.HasKey(e => e.ProductID);
+                entity.HasKey(e => e.ProductId);
 
                 entity.Property(e => e.Name)
                     .IsRequired()
@@ -44,12 +44,12 @@ namespace InventoryManagement.Infrastructure.Data
 
                 entity.HasOne(p => p.Category)
                     .WithMany(c => c.Products)
-                    .HasForeignKey(p => p.CategoryID)
+                    .HasForeignKey(p => p.CategoryId)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasMany(p => p.StockMovements)
                     .WithOne(sm => sm.Product)
-                    .HasForeignKey(sm => sm.ProductID)
+                    .HasForeignKey(sm => sm.ProductId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
 
@@ -58,7 +58,7 @@ namespace InventoryManagement.Infrastructure.Data
             {
                 entity.ToTable("Category");
 
-                entity.HasKey(e => e.CategoryID);
+                entity.HasKey(e => e.CategoryId);
 
                 entity.Property(e => e.Name)
                     .IsRequired()
@@ -66,7 +66,7 @@ namespace InventoryManagement.Infrastructure.Data
 
                 entity.HasMany(c => c.Products)
                     .WithOne(p => p.Category)
-                    .HasForeignKey(p => p.CategoryID)
+                    .HasForeignKey(p => p.CategoryId)
                     .OnDelete(DeleteBehavior.Restrict);
             });
 
@@ -123,7 +123,7 @@ namespace InventoryManagement.Infrastructure.Data
             {
                 entity.ToTable("StockMovement");
 
-                entity.HasKey(e => e.StockMovementID);
+                entity.HasKey(e => e.StockMovementId);
 
                 entity.Property(e => e.Quantity)
                     .IsRequired();
@@ -138,17 +138,17 @@ namespace InventoryManagement.Infrastructure.Data
 
                 entity.HasOne(sm => sm.Product)
                     .WithMany(p => p.StockMovements)
-                    .HasForeignKey(sm => sm.ProductID)
+                    .HasForeignKey(sm => sm.ProductId)
                     .OnDelete(DeleteBehavior.Cascade);
 
                 entity.HasOne(sm => sm.Customer)
                     .WithMany()
-                    .HasForeignKey(sm => sm.CustomerID)
+                    .HasForeignKey(sm => sm.CustomerId)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasOne(sm => sm.Supplier)
                     .WithMany()
-                    .HasForeignKey(sm => sm.SupplierID)
+                    .HasForeignKey(sm => sm.SupplierId)
                     .OnDelete(DeleteBehavior.Restrict);
             });
 
@@ -157,7 +157,7 @@ namespace InventoryManagement.Infrastructure.Data
             {
                 entity.ToTable("Order");
 
-                entity.HasKey(e => e.OrderID);
+                entity.HasKey(e => e.OrderId);
 
                 entity.Property(e => e.OrderDate)
                     .IsRequired()
@@ -168,12 +168,12 @@ namespace InventoryManagement.Infrastructure.Data
 
                 entity.HasOne(o => o.Customer)
                     .WithMany(c => c.Orders)
-                    .HasForeignKey(o => o.CustomerID)
+                    .HasForeignKey(o => o.CustomerId)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasMany(o => o.OrderDetails)
                     .WithOne(od => od.Order)
-                    .HasForeignKey(od => od.OrderID)
+                    .HasForeignKey(od => od.OrderId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
 
@@ -182,7 +182,7 @@ namespace InventoryManagement.Infrastructure.Data
             {
                 entity.ToTable("OrderDetail");
 
-                entity.HasKey(e => e.OrderDetailID);
+                entity.HasKey(e => e.OrderDetailId);
 
                 entity.Property(e => e.Quantity)
                     .IsRequired();
@@ -192,12 +192,12 @@ namespace InventoryManagement.Infrastructure.Data
 
                 entity.HasOne(od => od.Product)
                     .WithMany(p => p.OrderDetails)
-                    .HasForeignKey(od => od.ProductID)
+                    .HasForeignKey(od => od.ProductId)
                     .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasOne(od => od.Order)
                     .WithMany(o => o.OrderDetails)
-                    .HasForeignKey(od => od.OrderID)
+                    .HasForeignKey(od => od.OrderId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
 

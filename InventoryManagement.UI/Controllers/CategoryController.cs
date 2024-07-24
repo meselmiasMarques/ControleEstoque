@@ -1,7 +1,6 @@
 ﻿using InventoryManagement.Application.Services.Interfaces;
 using InventoryManagement.Domain.Entities;
-using InventoryManagement.UI.Models;
-using Microsoft.AspNetCore.Http;
+using InventoryManagement.UI.Models.CategoryViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InventoryManagement.UI.Controllers

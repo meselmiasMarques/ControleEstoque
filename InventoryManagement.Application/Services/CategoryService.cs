@@ -53,14 +53,14 @@ namespace InventoryManagement.Application.Services
 
         public async Task<Category> Update(Category entity)
         {
-            if (entity.CategoryID <= 0)
+            if (entity.CategoryId <= 0)
             {
-                throw new ArgumentException("Invalid category ID.", nameof(entity.CategoryID));
+                throw new ArgumentException("Invalid category ID.", nameof(entity.CategoryId));
             }
 
             try
             {
-                var category = await _repository.GetAsyncById(entity.CategoryID);
+                var category = await _repository.GetAsyncById(entity.CategoryId);
 
                 if (category == null)
                 {
@@ -104,7 +104,7 @@ namespace InventoryManagement.Application.Services
 
             try
             {
-                var category = await _repository.GetAsyncById(entity.CategoryID);
+                var category = await _repository.GetAsyncById(entity.CategoryId);
                 if (category == null)
                 {
                     throw new ArgumentNullException(nameof(entity), "Category não encontrada");
