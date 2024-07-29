@@ -14,10 +14,14 @@ var builder = WebApplication.CreateBuilder(args);
 //Console.WriteLine($"Connection String: {connectionString}");
 
 // Adicione serviços ao contêiner
+//builder.Services.AddDbContext<InventoryContext>(options =>
+//    options.UseSqlServer(
+//        @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False"));
+
+//docker
 builder.Services.AddDbContext<InventoryContext>(options =>
     options.UseSqlServer(
-        @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False"));
-
+        @"Server=localhost,1433;Database=dbcontrolstock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"));
 
 // Registrar os repositórios
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();

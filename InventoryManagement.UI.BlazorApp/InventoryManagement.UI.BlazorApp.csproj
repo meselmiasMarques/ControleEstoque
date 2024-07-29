@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagement.Application\InventoryManagement.Application.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Domain\InventoryManagement.Domain.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastructure\InventoryManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="7.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css.map" />
+    <_ContentIncludedByDefault Remove="MyApplication\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="MyApplication\appsettings.json" />
+    <_ContentIncludedByDefault Remove="MyApplication\obj\MyApplication.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="MyApplication\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="MyApplication\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\App.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\Layout\MainLayout.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\Layout\NavMenu.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\Pages\Error.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\Pages\Home.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\Routes.razor" />
+    <_ContentIncludedByDefault Remove="MyApplication\Components\_Imports.razor" />
+  </ItemGroup>
+
+</Project>
