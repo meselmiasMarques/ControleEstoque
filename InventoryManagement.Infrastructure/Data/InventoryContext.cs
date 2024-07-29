@@ -99,7 +99,7 @@ namespace InventoryManagement.Infrastructure.Data
             {
                 entity.ToTable("Customer");
 
-                entity.HasKey(e => e.CustomerID);
+                entity.HasKey(e => e.CustomerId);
 
                 entity.Property(e => e.Name)
                     .IsRequired()

@@ -42,7 +42,7 @@ namespace InventoryManagement.UI.Controllers
         // POST: CategoryController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Cadastrar(CustomerViewModel model)
+        public async Task<ActionResult> Cadastrar(CustomerViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -51,7 +51,7 @@ namespace InventoryManagement.UI.Controllers
 
             var customer = new Customer
             {
-                CustomerID = 0,
+                CustomerId = 0,
                 Name = model.Name,
                 ContactName = model.ContactName,
                 Address = model.Address,
@@ -60,34 +60,55 @@ namespace InventoryManagement.UI.Controllers
                 Orders = new List<Order>()
             };
 
-            _service.Add(customer);
+           await _service.Add(customer);
 
             return RedirectToAction("Lista");
         }
 
         [HttpGet]
-        public ActionResult Editar(int id)
+        public async Task<ActionResult> Editar(int id)
         {
-            return View();
+            var model = await _service.Get(id);
+
+            if (model == null)
+            {
+                ViewBag.Erro = "Erro ao recuperar Cliente";
+                return View();
+            }
+
+            var customer = new CustomerEditViewModel()
+            {
+                CustomerId = model.CustomerId,
+                Name = model.Name,
+                ContactName = model.ContactName,
+                Address = model.Address,
+                City = model.City,
+                Phone = model.Phone
+            };
+
+            return View(customer);
         }
 
         // POST: CategoryController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar(int id, CustomerViewModel model)
+        public async Task<ActionResult> Editar(int id, CustomerEditViewModel model)
         {
-            ViewBag.CustomerId = id;
             if (!ModelState.IsValid)
             {
-                return View(model);
+                return View();
             }
 
             var customer = new Customer
             {
-                Name = model.Name
+                Name = model.Name,
+                ContactName = model.ContactName,
+                Address = model.Address,
+                City = model.City,
+                Phone = model.Phone
             };
 
-            _service.Update(customer);
+            await _service.Update(customer);
 
             return RedirectToAction("Lista");
         }

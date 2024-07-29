@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Adicione serviços ao contêiner
 builder.Services.AddDbContext<InventoryContext>(options =>
     options.UseSqlServer(
-        @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False"));
+        @"Server=localhost,1433;Database=controlStock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"));
 
 
 // Registrar os repositórios
