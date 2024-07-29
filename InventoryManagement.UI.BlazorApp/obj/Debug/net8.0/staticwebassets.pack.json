@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI.BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InventoryManagement.UI.BlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InventoryManagement.UI.BlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI.BlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI.BlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InventoryManagement.UI.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InventoryManagement.UI.BlazorApp.props",
+      "PackagePath": "build\\InventoryManagement.UI.BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InventoryManagement.UI.BlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\InventoryManagement.UI.BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InventoryManagement.UI.BlazorApp.props",
+      "PackagePath": "buildTransitive\\InventoryManagement.UI.BlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
