@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\ControleEstoque\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\dev\\controleestoque\\inventorymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\dev\\controleestoque\\inventorymanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EB1380-9AA6-4EE2-8180-6FA52587599A}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|c:\\dev\\controleestoque\\inventorymanagement.infrastructure\\data\\inventorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EB1380-9AA6-4EE2-8180-6FA52587599A}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|solutionrelative:inventorymanagement.infrastructure\\data\\inventorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|c:\\dev\\controleestoque\\inventorymanagement.ui\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9055EA5-F700-4791-A526-FED1025AD1D0}|InventoryManagement.UI\\InventoryManagement.UI.csproj|solutionrelative:inventorymanagement.ui\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\dev\\controleestoque\\inventorymanagement.application\\repositories\\stockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\repositories\\stockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\dev\\controleestoque\\inventorymanagement.application\\repositories\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\repositories\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAF095B-A32F-4260-83E4-E4B6C93CE6EA}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|c:\\dev\\controleestoque\\inventorymanagement.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAF095B-A32F-4260-83E4-E4B6C93CE6EA}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|solutionrelative:inventorymanagement.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:56:17.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.UI\\Program.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Program.cs",
+              "RelativeToolTip": "InventoryManagement.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:55:54.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryContextFactory.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\Data\\InventoryContextFactory.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Infrastructure\\Data\\InventoryContextFactory.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Infrastructure\\Data\\InventoryContextFactory.cs",
+              "RelativeToolTip": "InventoryManagement.Infrastructure\\Data\\InventoryContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:51:26.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.UI\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.UI\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "InventoryManagement.UI\\Controllers\\SupplierController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:49:04.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockMovementRepository.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:00:45.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStockMovementRepository.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:59:17.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockMovement.cs",
+              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\Entities\\StockMovement.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Domain\\Entities\\StockMovement.cs",
+              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\Entities\\StockMovement.cs",
+              "RelativeToolTip": "InventoryManagement.Domain\\Entities\\StockMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:57:42.778Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

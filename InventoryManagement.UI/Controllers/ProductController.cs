@@ -75,15 +75,32 @@ namespace InventoryManagement.UI.Controllers
         // POST: ProductController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, ProductCreateViewModel model)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    ViewBag.Erro ="Revise em campos";
+                    return View(model);
+                }
+
+                var product = new Product()
+                {
+                    Name = model.Name,
+                    Description = model.Description,
+                    Price = model.Price,
+                    Category = model.Category
+                };
+
+               await _service.Update(product);
+
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                ViewBag.Erro = "Erro ao Editar Produto";
+                return View(model);
             }
         }
 

@@ -1,5 +1,4 @@
-﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
-@model InventoryManagement.UI.Models.CustomerViewModel.CustomerViewModel
+﻿@model InventoryManagement.UI.Models.CustomerViewModel.CustomerViewModel
 
 @{
     ViewData["Title"] = "Cadastrar";
@@ -8,7 +7,7 @@
 
 <h1>Cadastrar</h1>
 
-<h4>cUSTOMER</h4>
+<h4>Customer</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -20,6 +19,26 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ContactName" class="control-label"></label>
+                <input asp-for="ContactName" class="form-control" />
+                <span asp-validation-for="ContactName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -27,7 +46,7 @@
 </div>
 
 <div>
-    <a asp-action="Lista">Back to List</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

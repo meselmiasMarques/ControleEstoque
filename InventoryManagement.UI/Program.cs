@@ -20,8 +20,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 //docker
 builder.Services.AddDbContext<InventoryContext>(options =>
-    options.UseSqlServer(
-        @"Server=localhost,1433;Database=dbcontrolstock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"));
+    options.UseSqlServer(@"Server=localhost,1433;Database=controlStock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"));
+
 
 // Registrar os repositórios
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();

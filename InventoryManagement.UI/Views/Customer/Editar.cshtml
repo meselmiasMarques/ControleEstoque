@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
-@model InventoryManagement.UI.Models.CustomerViewModel.CustomerViewModel
+@model InventoryManagement.UI.Models.CustomerViewModel.CustomerEditViewModel
 
 @{
     ViewData["Title"] = "Editar";
@@ -14,7 +14,7 @@
     <div class="col-md-4">
         <form asp-action="Editar">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @* <input type="hidden" asp-for="CustomerID" /> *@
+             <input type="hidden" asp-for="CustomerId" /> 
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
