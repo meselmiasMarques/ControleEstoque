@@ -28,7 +28,8 @@ namespace InventoryManagement.Domain.Repositories
         public async Task<Customer> GetAsyncById(int id)
             => await _dbContext
                 .Customers
-                .FirstOrDefaultAsync(x => x.CustomerId == id);
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.CustomerId == id) ?? new Customer();
 
 
         public async Task<Customer> UpdateAsync(Customer entity)

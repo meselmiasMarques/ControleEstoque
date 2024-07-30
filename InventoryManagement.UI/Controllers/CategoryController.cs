@@ -83,11 +83,11 @@ namespace InventoryManagement.UI.Controllers
         [HttpGet]
         public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                ViewBag.Erro = "Não foi possível recuperar a Categoria";
-                return View();
-            }
+            // if (id == null)
+            // {
+            //     ViewBag.Erro = "Não foi possível recuperar a Categoria";
+            //     return View();
+            // }
 
             return View();
         }

@@ -9,11 +9,11 @@ using InventoryManagement.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//// Verificar a string de conexão
+//// Verificar a string de conexï¿½o
 //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 //Console.WriteLine($"Connection String: {connectionString}");
 
-// Adicione serviços ao contêiner
+// Adicione serviï¿½os ao contï¿½iner
 //builder.Services.AddDbContext<InventoryContext>(options =>
 //    options.UseSqlServer(
 //        @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ControlStock;Integrated Security=True;Encrypt=False"));
@@ -23,18 +23,20 @@ builder.Services.AddDbContext<InventoryContext>(options =>
     options.UseSqlServer(@"Server=localhost,1433;Database=controlStock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"));
 
 
-// Registrar os repositórios
+// Registrar os repositï¿½rios
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
 builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
 builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
+builder.Services.AddScoped<IRepository<Supplier>, SupplierRepository>();
 
-// Registrar os serviços
+
+// Registrar os serviï¿½os
 builder.Services.AddScoped<IService<Category>, CategoryService>();
 builder.Services.AddScoped<IService<Customer>, CustomerService>();
 builder.Services.AddScoped<IService<Product>, ProductService>();
+builder.Services.AddScoped<IService<Supplier>, SupplierService>();
 
-
-// Adicionar serviços ao contêiner
+// Adicionar serviï¿½os ao contï¿½iner
 builder.Services.AddControllersWithViews();
 
 

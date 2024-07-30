@@ -38,7 +38,7 @@ namespace InventoryManagement.Domain.Repositories
                 throw new ArgumentException("Invalid supplier ID.", nameof(id));
             }
 
-            return await _dbContext.Suppliers.AsNoTracking().FirstOrDefaultAsync(x => x.SupplierID == id);
+            return await _dbContext.Suppliers.AsNoTracking().FirstOrDefaultAsync(x => x.SupplierID == id) ?? new Supplier();
         }
 
         public async Task<Supplier> UpdateAsync(Supplier entity)
