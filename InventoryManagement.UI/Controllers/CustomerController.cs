@@ -16,14 +16,8 @@ namespace InventoryManagement.UI.Controllers
         public async Task<ActionResult> Lista()
         {
             var customers = await _service.GetAll();
-            if (customers == null)
-            {
-                ViewBag.Erro = "Erro ao recuperar clientes";
-                return View();
-
-            }
-
             return View(customers);
+           
         }
 
         [HttpGet]

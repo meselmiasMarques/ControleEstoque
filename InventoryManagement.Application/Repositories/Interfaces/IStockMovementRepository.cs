@@ -11,6 +11,5 @@ namespace InventoryManagement.Application.Repositories.Interfaces
     {
         Task AddAsync(StockMovement movement);
         Task<IEnumerable<StockMovement>> GetByProductIdAsync(int productId);
-        Task SaveChanges();
     }
 }

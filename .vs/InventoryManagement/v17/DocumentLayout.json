@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\DEV\\ControleEstoque\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\dev\\controleestoque\\inventorymanagement.application\\repositories\\stockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\repositories\\stockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\dev\\controleestoque\\inventorymanagement.application\\repositories\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2FCE96-F233-4138-AC7E-CB44E59052E6}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\repositories\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AAF095B-A32F-4260-83E4-E4B6C93CE6EA}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|c:\\dev\\controleestoque\\inventorymanagement.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAF095B-A32F-4260-83E4-E4B6C93CE6EA}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|solutionrelative:inventorymanagement.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockMovementRepository.cs",
-              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
-              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Repositories\\StockMovementRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T15:00:45.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IStockMovementRepository.cs",
-              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
-              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
-              "RelativeToolTip": "InventoryManagement.Application\\Repositories\\Interfaces\\IStockMovementRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T14:59:17.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StockMovement.cs",
-              "DocumentMoniker": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\Entities\\StockMovement.cs",
-              "RelativeDocumentMoniker": "InventoryManagement.Domain\\Entities\\StockMovement.cs",
-              "ToolTip": "C:\\DEV\\ControleEstoque\\InventoryManagement.Domain\\Entities\\StockMovement.cs",
-              "RelativeToolTip": "InventoryManagement.Domain\\Entities\\StockMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T14:57:42.778Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -26,7 +26,5 @@ namespace InventoryManagement.Domain.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task SaveChanges()
-            => _dbContext.SaveChangesAsync();
     }
 }

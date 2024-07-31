@@ -1,0 +1,42 @@
+﻿@page "/Categories"
+@inject IService<InventoryManagement.Domain.Entities.Category> Service 
+
+
+<h3>
+    Categorias
+</h3>
+
+
+    <ul class="list-group">
+        @if (_categories != null)
+        {
+            foreach (var category in _categories)
+            {
+                <li class="list-group-item">@category.CategoryId</li>
+                <li class="list-group-item">@category.Name</li>
+            }
+        }
+    </ul>
+
+
+@code {
+    private List<Domain.Entities.Category>? _categories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (Service != null)
+            {
+                _categories = await Service.GetAll();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            Console.WriteLine(Service);
+            throw;
+        }
+    }
+
+}

@@ -36,7 +36,7 @@ namespace InventoryManagement.UI.Controllers
         // POST: CategoryController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Cadastrar(CategoryViewModel model)
+        public async Task<ActionResult> Cadastrar(CategoryViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -48,7 +48,7 @@ namespace InventoryManagement.UI.Controllers
                 Name = model.Name
             };
 
-            _service.Add(category);
+           await _service.Add(category);
 
             return RedirectToAction("Lista");
         }
@@ -83,11 +83,11 @@ namespace InventoryManagement.UI.Controllers
         [HttpGet]
         public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                ViewBag.Erro = "Não foi possível recuperar a Categoria";
-                return View();
-            }
+            // if (id == null)
+            // {
+            //     ViewBag.Erro = "Não foi possível recuperar a Categoria";
+            //     return View();
+            // }
 
             return View();
         }
