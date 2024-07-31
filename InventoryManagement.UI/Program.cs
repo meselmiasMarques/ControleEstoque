@@ -23,11 +23,15 @@ builder.Services.AddDbContext<InventoryContext>(options =>
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
 builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
 builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
+builder.Services.AddScoped<IRepository<Supplier>, SupplierRepository>();
+//builder.Services.AddScoped<IRepository<StockMovement>, StockMovementRepository>();
+
 
 // Registrar os serviços
 builder.Services.AddScoped<IService<Category>, CategoryService>();
 builder.Services.AddScoped<IService<Customer>, CustomerService>();
 builder.Services.AddScoped<IService<Product>, ProductService>();
+builder.Services.AddScoped<IService<StockMovement>, StockMovementService>();
 
 
 // Adicionar serviços ao contêiner
