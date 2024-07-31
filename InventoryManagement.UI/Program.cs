@@ -28,22 +28,15 @@ builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
 builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
 builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddScoped<IRepository<Supplier>, SupplierRepository>();
-<<<<<<< HEAD
-//builder.Services.AddScoped<IRepository<StockMovement>, StockMovementRepository>();
 
-=======
->>>>>>> 0d7b59fa6e0bc6940d320e4833b09a2b54fe826c
 
 
 // Registrar os servi�os
 builder.Services.AddScoped<IService<Category>, CategoryService>();
 builder.Services.AddScoped<IService<Customer>, CustomerService>();
 builder.Services.AddScoped<IService<Product>, ProductService>();
-<<<<<<< HEAD
-builder.Services.AddScoped<IService<StockMovement>, StockMovementService>();
-=======
 builder.Services.AddScoped<IService<Supplier>, SupplierService>();
->>>>>>> 0d7b59fa6e0bc6940d320e4833b09a2b54fe826c
+
 
 // Adicionar servi�os ao cont�iner
 builder.Services.AddControllersWithViews();

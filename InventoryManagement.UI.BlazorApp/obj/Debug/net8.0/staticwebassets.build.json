@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iAF9axQOjw1mA3mVbn3Qoi031R+pkU7U7HDXv/6nBBk=",
+  "Hash": "HM1e4jmUy2iQGIzjKVKl0T1GbeM0gGYtRqL3hXEW3bc=",
   "Source": "InventoryManagement.UI.BlazorApp",
   "BasePath": "_content/InventoryManagement.UI.BlazorApp",
   "Mode": "Default",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mesel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\mlima\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js"
     }
   ]
 }
